@@ -1,0 +1,3421 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emplacamento Placas Mercosul</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+    <!-- ==== WOW JS ==== -->
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+     <!-- ====== Navbar Section Start -->
+     <div
+     class="
+       ud-header
+       bg-transparent
+       absolute
+       top-0
+       left-0
+       z-40
+       w-full
+       flex
+       items-center
+     "
+   >
+     <div class="container">
+       <div class="flex -mx-4 items-center justify-between relative">
+         <div class="px-4 w-60 max-w-full">
+           <a href="index.html" class="navbar-logo w-full block py-5">
+             <img
+               src="assets/images/logo/logo.png"
+               alt="logo"
+               class="w-full header-logo"
+             />
+           </a>
+         </div>
+         <div class="flex px-4 justify-between items-center w-full">
+           <div>
+             <button
+               id="navbarToggler"
+               class="
+                 block
+                 absolute
+                 right-4
+                 top-1/2
+                 -translate-y-1/2
+                 lg:hidden
+                 focus:ring-2
+                 ring-primary
+                 px-3
+                 py-[6px]
+                 rounded-lg
+               "
+             >
+               <span
+                 class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+               ></span>
+               <span
+                 class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+               ></span>
+               <span
+                 class="relative w-[30px] h-[2px] my-[6px] block bg-white"
+               ></span>
+             </button>
+             <nav
+               id="navbarCollapse"
+               class="
+                 absolute
+                 py-5
+                 lg:py-0 lg:px-4
+                 xl:px-6
+                 bg-white
+                 lg:bg-transparent
+                 shadow-lg
+                 rounded-lg
+                 max-w-[250px]
+                 w-full
+                 lg:max-w-full lg:w-full
+                 right-4
+                 top-full
+                 hidden
+                 lg:block lg:static lg:shadow-none
+               "
+             >
+               <ul class="blcok lg:flex">
+                 <li class="relative group">
+                   <a
+                     href="#home"
+                     class="
+                       ud-menu-scroll
+                       text-base text-dark
+                       lg:text-white
+                       lg:group-hover:opacity-70
+                       lg:group-hover:text-white
+                       group-hover:text-primary
+                       py-2
+                       lg:py-6 lg:inline-flex lg:px-0
+                       flex
+                       mx-8
+                       lg:mr-0
+                     "
+                   >
+                     Home
+                   </a>
+                 </li>
+                 <li class="relative group">
+                   <a
+                     href="#about"
+                     class="
+                       ud-menu-scroll
+                       text-base text-dark
+                       lg:text-white
+                       lg:group-hover:opacity-70
+                       lg:group-hover:text-white
+                       group-hover:text-primary
+                       py-2
+                       lg:py-6 lg:inline-flex lg:px-0
+                       flex
+                       mx-8
+                       lg:mr-0 lg:ml-7
+                       xl:ml-12
+                     "
+                   >
+                     Sobre
+                   </a>
+                 </li>
+                 <li class="relative group">
+                   <a
+                     href="#pricing"
+                     class="
+                       ud-menu-scroll
+                       text-base text-dark
+                       lg:text-white
+                       lg:group-hover:opacity-70
+                       lg:group-hover:text-white
+                       group-hover:text-primary
+                       py-2
+                       lg:py-6 lg:inline-flex lg:px-0
+                       flex
+                       mx-8
+                       lg:mr-0 lg:ml-7
+                       xl:ml-12
+                     "
+                   >
+                     Preços
+                   </a>
+                 </li>
+                 <li class="relative group">
+                  <a
+                    href="#faq"
+                    class="
+                      ud-menu-scroll
+                      text-base text-dark
+                      lg:text-white
+                      lg:group-hover:opacity-70
+                      lg:group-hover:text-white
+                      group-hover:text-primary
+                      py-2
+                      lg:py-6 lg:inline-flex lg:px-0
+                      flex
+                      mx-8
+                      lg:mr-0 lg:ml-7
+                      xl:ml-12
+                    "
+                  >
+                    FAQ
+                  </a>
+                </li>
+                 <li class="relative group">
+                   <a
+                     href="#testimonial"
+                     class="
+                       ud-menu-scroll
+                       text-base text-dark
+                       lg:text-white
+                       lg:group-hover:opacity-70
+                       lg:group-hover:text-white
+                       group-hover:text-primary
+                       py-2
+                       lg:py-6 lg:inline-flex lg:px-0
+                       flex
+                       mx-8
+                       lg:mr-0 lg:ml-7
+                       xl:ml-12
+                     "
+                   >
+                     Avaliações
+                   </a>
+                 </li>
+                 <li class="relative group">
+                   <a
+                     href="#contact"
+                     class="
+                       ud-menu-scroll
+                       text-base text-dark
+                       lg:text-white
+                       lg:group-hover:opacity-70
+                       lg:group-hover:text-white
+                       group-hover:text-primary
+                       py-2
+                       lg:py-6 lg:inline-flex lg:px-0
+                       flex
+                       mx-8
+                       lg:mr-0 lg:ml-7
+                       xl:ml-12
+                     "
+                   >
+                     Contato
+                   </a>
+                 </li>
+               </ul>
+             </nav>
+           </div>
+           <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
+               <a
+               href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1%2C%20tudo%20bem%3F%20vim%20do%20site."
+                 class= "
+                 py-4
+                 px-6
+                 sm:px-10
+                 inline-flex
+                 items-center
+                 justify-center
+                 text-center text-base text-white
+                 bg-green
+                 hover:text-primary hover:shadow-lg
+                 font-bold
+                 rounded-lg
+                 transition
+                 duration-300
+                 ease-in-out
+               "
+               >
+                 WhatsApp
+               </a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- ====== Navbar Section End -->
+
+    <!-- ====== Hero Section Start -->
+    <div
+      id="home"
+      class="relative pt-[120px] md:pt-[130px] lg:pt-[160px] bg-primary"
+    >
+      <div class="container">
+        <div class="flex flex-wrap items-center -mx-4">
+          <div class="w-full px-3">
+            <div
+              class="
+                hero-content
+                text-center
+                max-w-[780px]
+                mx-auto
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s"
+            >
+              <h1
+                class="
+                  text-white
+                  font-bold
+                  text-3xl
+                  sm:text-xl
+                  md:text-[45px]
+                  leading-snug
+                  sm:leading-snug
+                  md:leading-snug
+                  mb-
+                "
+              >
+              Valores promocionais a partir de $99 <br> <br>
+              Emplacamento do seu veículo <br>
+              Ainda hoje <br>
+              Com Frete Grátis! <br><br>  
+              </h1>
+              <h2
+                class="
+                  text-base
+                  sm:text-2xl sm:leading-relaxed
+                  md:text-2xl md:leading-relaxed
+                  mx-auto
+                  mb-10
+                  text-[#e4e4e4]
+                  max-w-[800px]
+                "
+              >
+                Entrega <u>grátis</u> para toda Curitiba e região metropolitana
+                Orçamento grátis 24h via WhatsApp <br>
+                Instalação em até 1 hora <br>
+              </h2>
+              <ul class="flex flex-wrap items-center justify-center mb-10">
+                <li>
+                  <a
+                  href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1%2C%20tudo%20bem%3F%20vim%20do%20site."
+                    class="
+                      py-4
+                      px-6
+                      sm:px-10
+                      inline-flex
+                      items-center
+                      justify-center
+                      text-center text-dark text-base
+                      bg-white
+                      hover:text-primary hover:shadow-lg
+                      font-medium
+                      rounded-lg
+                      transition
+                      duration-300
+                      ease-in-out
+                    "
+                  >
+                    Orçamento Grátis
+                  </a>
+                </li>
+                <li>
+                  <a
+                  href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1%2C%20tudo%20bem%3F%20vim%20do%20site."
+                    target="_blank"
+                    class="
+                      text-base
+                      font-medium
+                      text-white
+                      py-4
+                      px-6
+                      sm:px-10
+                      flex
+                      items-center
+                      hover:opacity-70
+                      transition
+                      duration-300
+                      ease-in-out
+                    "
+                  >
+                    Conversar Por WhatsApp
+                    <span class="pl-2">
+                      <svg
+                        width="20"
+                        height="8"
+                        viewBox="0 0 20 8"
+                        class="fill-current"
+                      >
+                        <path
+                          d="M19.2188 2.90632L17.0625 0.343819C16.875 0.125069 16.5312 0.0938193 16.2812 0.281319C16.0625 0.468819 16.0312 0.812569 16.2188 1.06257L18.25 3.46882H0.9375C0.625 3.46882 0.375 3.71882 0.375 4.03132C0.375 4.34382 0.625 4.59382 0.9375 4.59382H18.25L16.2188 7.00007C16.0312 7.21882 16.0625 7.56257 16.2812 7.78132C16.375 7.87507 16.5 7.90632 16.625 7.90632C16.7812 7.90632 16.9375 7.84382 17.0312 7.71882L19.1875 5.15632C19.75 4.46882 19.75 3.53132 19.2188 2.90632Z"
+                        />
+                      </svg>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="w-full px-4">
+            <div
+              class="mx-auto max-w-[845px] relative z-10 wow fadeInUp"
+              data-wow-delay=".25s"
+            >
+              <div class="mt-16">
+                <img
+                  src="assets/images/hero/hero-image.jpg"
+                  alt="Placa Mercosul"
+                  class="max-w-full mx-auto rounded-t-xl rounded-tr-xl"
+                />
+              </div>
+              <div class="absolute z-[-1] bottom-0 -left-9">
+                <svg
+                  width="134"
+                  height="106"
+                  viewBox="0 0 134 106"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="1.66667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 31 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 103 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 132 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 31 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 103 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 132 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="74.6673"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 74.6673)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 31 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 31 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 103 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 103 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 132 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 132 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 31 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 31 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 103 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 103 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 132 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 132 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 31 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 31 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 103 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 103 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 132 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 132 1.66707)"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+              <div class="absolute z-[-1] -top-6 -right-6">
+                <svg
+                  width="134"
+                  height="106"
+                  viewBox="0 0 134 106"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="1.66667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 31 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 103 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="104"
+                    r="1.66667"
+                    transform="rotate(-90 132 104)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 31 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="89.3333"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 89.3333)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 103 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="89.3338"
+                    r="1.66667"
+                    transform="rotate(-90 132 89.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="74.6673"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 74.6673)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 31 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 31 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="31.0003"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 31.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 103 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 103 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="74.6668"
+                    r="1.66667"
+                    transform="rotate(-90 132 74.6668)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="31.0001"
+                    r="1.66667"
+                    transform="rotate(-90 132 31.0001)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 31 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 31 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 103 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 103 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="60.0003"
+                    r="1.66667"
+                    transform="rotate(-90 132 60.0003)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="16.3336"
+                    r="1.66667"
+                    transform="rotate(-90 132 16.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="1.66667"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 1.66667 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="16.3333"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 16.3333 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 31 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="31"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 31 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="45.3336"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 45.3336)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="45.6667"
+                    cy="1.66683"
+                    r="1.66667"
+                    transform="rotate(-90 45.6667 1.66683)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="60.3333"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 60.3333 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="88.6667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 88.6667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="117.667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 117.667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="74.6667"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 74.6667 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 103 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="103"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 103 1.66707)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="45.3338"
+                    r="1.66667"
+                    transform="rotate(-90 132 45.3338)"
+                    fill="white"
+                  />
+                  <circle
+                    cx="132"
+                    cy="1.66707"
+                    r="1.66667"
+                    transform="rotate(-90 132 1.66707)"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====== Hero Section End -->
+
+    <!-- ====== About Section Start -->
+    <section
+      id="about"
+      class="pt-20 lg:pt-[120px] pb-20 lg:pb-[120px] bg-[#f3f4fe]"
+    >
+      <div class="container">
+        <div class="bg-white wow fadeInUp" data-wow-delay=".2s">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full px-4">
+              <div
+                class="
+                  lg:flex
+                  items-center
+                  justify-between
+                  border
+                  overflow-hidden
+                "
+              >
+                <div
+                  class="
+                    lg:max-w-[565px]
+                    xl:max-w-[640px]
+                    w-full
+                    py-12
+                    px-7
+                    sm:px-12
+                    md:p-16
+                    lg:py-9 lg:px-16
+                    xl:p-[70px]
+                  "
+                >
+                  </span>
+                  <h2
+                    class="
+                      font-bold
+                      text-3xl
+                      sm:text-4xl
+                      2xl:text-[40px]
+                      sm:leading-snug
+                      text-dark
+                      mb-6
+                    "
+                  >
+                    Placas Mercosul Simplificando Sua Vida
+                  </h2>
+                  <p class="text-base text-body-color mb-9 leading-relaxed">
+                    Nosso projeto surgiu com o intuito de facilitar a sua vida, inovando com a opção delivery. <br>
+                    Com sistema automatizado, conseguimos emitir sua placa em poucos minutos, evitando horas de espera na fila para seu emplacamento. Podendo ser instalado na sua residência ou trabalho. <br>
+                    Nossa sede está situada em Curitiba/PR
+                  </p>
+                  <p class="text-base text-body-color mb-9 leading-relaxed">
+                    Com segurança e qualidade, nossos processos seguem todas as normas exigidas pelo Detran.
+                  </p>
+                </div>
+                <div class="text-center">
+                  <div class="relative inline-block z-10">
+                    <img
+                      src="assets/images/about/instalando-placa.jpeg"
+                      alt="Sobre"
+                      class="mx-auto lg:ml-auto"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== About Section End -->
+
+    <!-- ====== Pricing Section Start -->
+    <section
+      id="pricing"
+      class="
+        bg-white
+        pt-20
+        lg:pt-[120px]
+        pb-12
+        lg:pb-[90px]
+        relative
+        z-20
+        overflow-hidden
+      "
+    >
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+              <h2
+                class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-4
+                "
+              >
+                Nossos Valores
+              </h2>
+              <p
+                class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                "
+              >
+                Qual opção melhor lhe atende?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <div
+              class="
+                bg-white
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                border border-primary border-opacity-20
+                shadow-pricing
+                py-10
+                px-8
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <img class="center" src="/assets/images/favicon.ico" alt="Placa Mercosul Carro">
+              <span
+                class="text-dark font-medium text-base uppercase block mb-2"
+              >
+                EMPLACAMENTO MOTO
+              </span>
+              <h2 class="font-semibold text-primary mb-9 text-[28px]">
+                R$99,90
+              </h2>
+
+              <div class="mb-10">
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Padrão Mercosul <br>
+                  1 Placa Traseira Moto <br>
+                  Medidas: 17cm x 20cm <br>
+                  Frete Grátis para Curitiba <br>
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1!%20O%20valor%20promocional%20do%20site%20de%20R%2499%2C90%20ainda%20est%C3%A1%20v%C3%A1lido%3F"
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-primary
+                    bg-transparent
+                    border border-[#D4DEFF]
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-primary hover:border-primary
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Comprar Agora
+                </a>
+              </div>
+              <span
+                class="
+                  absolute
+                  left-0
+                  bottom-0
+                  z-[-1]
+                  w-14
+                  h-14
+                  rounded-tr-full
+                  block
+                  bg-primary
+                "
+              >
+              </span>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <div
+              class="
+                bg-primary bg-gradient-to-b
+                from-primary
+                to-[#179BEE]
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                shadow-pricing
+                py-10
+                px-8
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <span
+                class="
+                  inline-block
+                  py-2
+                  px-6
+                  border border-white
+                  rounded-full
+                  text-base
+                  font-semibold
+                  text-primary
+                  bg-white
+                  uppercase
+                  mb-5
+                "
+              >
+                POPULAR
+              </span>
+              <img src="/assets/images/hero/hero-image.jpg" alt="Placa Mercosul Moto">
+              <br>
+              <span
+                class="text-white font-medium text-base uppercase block mb-2"
+              >
+                EMPLACAMENTO CARRO
+              </span>
+              <h2 class="font-semibold text-white mb-9 text-[28px]">
+                R$149,90
+              </h2>
+
+              <div class="mb-10">
+                <p
+                  class="
+                    text-white
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Padrão Mercosul <br>
+                  1 Par de Placas para Carro <br>
+                  Medidas: 13cm x 40cm <br>
+                  Frete Grátis para Curitiba <br>
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1!%20Preciso%20emplacar%20meu%20autom%C3%B3vel.%20O%20valor%20promocional%20de%20R%24149%2C90%20est%C3%A1%20v%C3%A1lido%3F"
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-dark
+                    bg-white
+                    border border-white
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-dark hover:border-dark
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Comprar Agora
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <div
+              class="
+                bg-white
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                border border-primary border-opacity-20
+                shadow-pricing
+                py-10
+                px-8
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <img src="/assets/images/hero/hero-image.jpg" alt="Placa Mercosul Moto">
+              <span
+                class="text-dark font-medium text-base uppercase block mb-2"
+              >
+                DEMAIS CASOS
+              </span>
+              <h2 class="font-semibold text-primary mb-9 text-[28px]">
+                R$ 99,90
+              </h2>
+
+              <div class="mb-10">
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Valores <b> a partir </b> de R$99,90 <br>
+                  Carretinha <br>
+                  Trans Bike <br>
+                  Placa Avulsa <br>
+                  Placa Extravio <br>
+                  *Consultar vendedor para mais detalhes
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="https://api.whatsapp.com/send?phone=5541998412008&text=Ol%C3%A1!%20Preciso%20de%20um%20or%C3%A7amento%20para%20emplacamento."
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-primary
+                    bg-transparent
+                    border border-[#D4DEFF]
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-primary hover:border-primary
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Comprar Agora
+                </a>
+              </div>
+
+              <span
+                class="
+                  absolute
+                  right-0
+                  top-0
+                  z-[-1]
+                  w-14
+                  h-14
+                  rounded-bl-full
+                  block
+                  bg-secondary
+                "
+              >
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Pricing Section End -->
+
+    <!-- ====== Faq Section Start -->
+    <section
+      id="faq"
+      class="
+        bg-[#f3f4ff]
+        pt-20
+        lg:pt-[120px]
+        pb-12
+        lg:pb-[90px]
+        relative
+        z-20
+        overflow-hidden
+      "
+    >
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+              <span class="font-semibold text-lg text-primary mb-2 block">
+                FAQ
+              </span>
+              <h2
+                class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                "
+              >
+                Dúvidas Recentes
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 px-4">
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Já tenho a placa antiga. Preciso trocar e colocar a placa nova?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  De acordo com o Conselho Nacional de Trânsito (Contran), a implantação é obrigatória para o primeiro emplacamento, ou seja, o cidadão que adquirir um veículo novo já deve obter a placa padrão Mercosul. <br><br>
+                  Para os veículos que já estão em circulação, a PIV será exigida somente nos casos de transferência de domicílio de veículos (mudança de estado ou município), mudança de categoria do veículo, furto ou roubo e dano da referida placa. <br><br>
+                  Mesmo que o veículo não se enquadre nessas condições, se desejar, o proprietário pode adotar o novo sistema de emplacamento.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Existe uma data limite para que todos os veículos nacionais tenham a nova placa?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  Não. Até o dado momento não foi definida data alguma pelo DENATRAN.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Nada aconteceu com minha placa, mas eu quero trocar pela nova. Posso?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  Sim, basta solicitar a troca junto ao Detran local.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    É seguro comprar pela internet?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  Sim. O pagamento da sua placa nunca é cobrado antecipadamente, mas sim após a instalação da placa ter sido concluída em seu veículo, garantindo total segurança. Então fique tranquilo! Nós lhe oferecemos a comodade da instalação em qualquer lugar, com diversas condições de pagamento.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Como fazer placas de veículos do Paraná quando o veículo está em outro estado?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  Nesse caso se faz necessária a emissão de uma vistoria lacrada do estado onde se encontra o veículo para que se possa solicitar a confecção das placas.
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Qual o endereço da Placas Mercosul?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  Nossa plataforma atua online com base em Curitiba, então o endereço da instalação de sua placa será no seu local de escolha: na comodidade da sua empresa ou no conforto do seu lar!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute bottom-0 right-0 z-[-1]">
+        <svg
+          width="1440"
+          height="886"
+          viewBox="0 0 1440 886"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            opacity="0.5"
+            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+            fill="url(#paint0_linear)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="1308.65"
+              y1="1142.58"
+              x2="602.827"
+              y2="-418.681"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#3056D3" stop-opacity="0.36" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- ====== Faq Section End -->
+
+    <!-- ====== Testimonials Start ====== -->
+    <section id="testimonial" class="pt-20 md:pt-[120px]">
+      <div class="container px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full mx-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+              <span class="font-semibold text-lg text-primary mb-2 block">
+                Avaliações
+              </span>
+              <h2
+                class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                "
+              >
+              Opiniões de nossos clientes
+              </h2>
+              <p
+                class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                "
+              >
+                A sua opinião é muito importante para nós, assim como a transparência! Acompanhe avaliações sinceras sobre nossos produtos e serviços.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap">
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <div class="ud-testimonial-ratings flex items-center mb-3">
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="ud-testimonial-content mb-6">
+                <p class="text-base tracking-wide text-body-color">
+                  Resolvi tudo pelo whats e o motoboy chegou rápido
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <div class="ud-testimonial-ratings flex items-center mb-3">
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="ud-testimonial-content mb-6">
+                <p class="text-base tracking-wide text-body-color">
+                  Instalou no meu serviço
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+            <div
+              class="
+                ud-single-testimonial
+                p-8
+                bg-white
+                mb-12
+                shadow-testimonial
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <div class="ud-testimonial-ratings flex items-center mb-3">
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-[#fbb040] mr-1">
+                  <svg
+                    width="18"
+                    height="16"
+                    viewBox="0 0 18 16"
+                    class="fill-current"
+                  >
+                    <path
+                      d="M9.09815 0.360596L11.1054 6.06493H17.601L12.3459 9.5904L14.3532 15.2947L9.09815 11.7693L3.84309 15.2947L5.85035 9.5904L0.595291 6.06493H7.0909L9.09815 0.360596Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="ud-testimonial-content mb-6">
+                <p class="text-base tracking-wide text-body-color">
+                  Tudo de bom. Preço qualidade na instalação rápida e ótimo atendimento. <br>
+                  Ainda é cedo pra ter certeza da qualidade, mas parece boa. Recomendo!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Testimonials End ====== -->
+
+    <!-- ====== Contact Start ====== -->
+    <section id="contact" class="py-20 md:py-[120px] relative">
+      <div
+        class="
+          absolute
+          z-[-1]
+          w-full
+          h-1/2
+          lg:h-[45%]
+          xl:h-1/2
+          bg-[#f3f4fe]
+          top-0
+          left-0
+        "
+      ></div>
+      <div class="container px-4">
+        <div class="flex flex-wrap items-center -mx-4">
+          <div class="px-4 w-full lg:w-7/12 xl:w-8/12">
+            <div class="ud-contact-content-wrapper">
+              <div class="ud-contact-title mb-12 lg:mb-[150px]">
+                <span class="text-dark font-semibold text-base mb-5">
+                  FALE CONOSCO
+                </span>
+                <h2 class="text-[35px] font-semibold">
+                  Ficou alguma dúvida? <br />
+                  Entre em contato com um de nossos vendedores!
+                </h2>
+              </div>
+              <div class="flex flex-wrap justify-between mb-12 lg:mb-0">
+                <div class="flex max-w-full w-[330px] mb-8">
+                  <div class="text-[32px] text-primary mr-6">
+                    <svg
+                      width="29"
+                      height="35"
+                      viewBox="0 0 29 35"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
+                      />
+                      <path
+                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mb-6">Localização</h5>
+                    <p class="text-base text-body-color">
+                      Curitiba - PR
+                    </p>
+                  </div>
+                </div>
+                <div class="flex max-w-full w-[330px] mb-8">
+                  <div class="text-[32px] text-primary mr-6">
+                    <svg
+                      width="34"
+                      height="25"
+                      viewBox="0 0 34 25"
+                      class="fill-current"
+                    >
+                      <path
+                        d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h5 class="text-lg font-semibold mb-6">Como Podemos Ajudar?</h5>
+                    <a href="https://api.whatsapp.com/send?phone=5541998412008" class="text-base text-body-color">(41) 9 9841-2008</a>
+                    <a href="mailto:mateus.somos@gmail.com" class="text-base text-body-color">
+                      mateus.somos@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="px-4 w-full lg:w-5/12 xl:w-4/12">
+            <div
+              class="
+                shadow-testimonial
+                rounded-lg
+                bg-white
+                py-10
+                px-8
+                md:p-[60px]
+                lg:p-10
+                2xl:p-[60px]
+                sm:py-12 sm:px-10
+                lg:py-12 lg:px-10
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <h3 class="font-semibold mb-8 text-2xl md:text-[26px]">
+                Nos Envie uma Mensagem
+              </h3>
+              <form action="mailto:mateus.somos@gmail.com" method="post" enctype="text/plain">
+                <div class="mb-6">
+                  <label for="Nome Completo" class="block text-xs text-dark"
+                    >Nome Completo*</label
+                  >
+                  <input
+                    type="text"
+                    name="Nome Completo"
+                    placeholder="Seu Nome"
+                    class="
+                      w-full
+                      border-0 border-b border-[#f1f1f1]
+                      focus:border-primary focus:outline-none
+                      py-4
+                    "
+                  />
+                </div>
+                <div class="mb-6">
+                  <label for="E-mail" class="block text-xs text-dark"
+                    >E-mail*</label
+                  >
+                  <input
+                    type="email"
+                    name="E-mail"
+                    placeholder="exemplo@email.com"
+                    class="
+                      w-full
+                      border-0 border-b border-[#f1f1f1]
+                      focus:border-primary focus:outline-none
+                      py-4
+                    "
+                  />
+                </div>
+                <div class="mb-6">
+                  <label for="Telefone" class="block text-xs text-dark"
+                    >Telefone*</label
+                  >
+                  <input
+                    type="text"
+                    name="Telefone"
+                    placeholder="(41) 9 9999-9999"
+                    class="
+                      w-full
+                      border-0 border-b border-[#f1f1f1]
+                      focus:border-primary focus:outline-none
+                      py-4
+                    "
+                  />
+                </div>
+                <div class="mb-6">
+                  <label for="Corpo " class="block text-xs text-dark"
+                    >Mensagem*</label
+                  >
+                  <textarea
+                    name="Corpo "
+                    rows="1"
+                    placeholder="Escreva sua mensagem aqui"
+                    class="
+                      w-full
+                      border-0 border-b border-[#f1f1f1]
+                      focus:border-primary focus:outline-none
+                      py-4
+                      resize-none
+                    "
+                  ></textarea>
+                </div>
+                <div class="mb-0">
+                  <button onclick="location.href='mateus.somos@gmail.com';""
+                    type="submit"
+                    class="
+                      inline-flex
+                      items-center
+                      justify-center
+                      py-4
+                      px-6
+                      rounded
+                      text-white
+                      bg-primary
+                      text-base
+                      font-medium
+                      hover:bg-dark
+                      transition
+                      duration-300
+                      ease-in-out
+                    "
+                  >
+                    Enviar Mensagem
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Contact End ====== -->
+
+    <!-- ====== Footer Section Start -->
+    <footer
+      class="bg-black pt-20 lg:pt-[120px] relative z-10 wow fadeInUp"
+      data-wow-delay=".15s"
+    >
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12 px-4">
+            <div class="w-full mb-10">
+              <a
+                href="javascript:void(0)"
+                class="inline-block max-w-[160px] mb-6"
+              >
+                <img
+                  src="assets/images/logo/logo.png"
+                  alt="logo"
+                  class="max-w-full"
+                />
+              </a>
+              <p class="text-base text-[#f3f4fe] mb-7">
+                Simplificamos o emplacamento do seu veículo.
+              </p>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 px-4">
+            <div class="w-full mb-10">
+              <h4 class="text-white text-lg font-semibold mb-9"></h4>
+              <ul>
+                <li>
+                  <a
+                    href="index.html#home"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="index.html#about"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Sobre
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="index.html#testimonial"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Avaliações
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+            <div class="w-full mb-10">
+              <h4 class="text-white text-lg font-semibold mb-9">Sobre a Placa Mercosul</h4>
+              <ul>
+                <li>
+                  <a
+                    href="#faq"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Como funciona
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faq"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Política de privacidade
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faq"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Termos de serviço
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#faq"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Política de ressarcimento
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-full sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12 px-4">
+            <div class="w-full mb-10">
+              <h4 class="text-white text-lg font-semibold mb-9">
+                Produtos
+              </h4>
+              <ul>
+                <li>
+                  <a
+                    href="#pricing"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Placas para automóvel
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#pricing"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Placa para moto
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#pricing"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Placa para carretinha
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#pricing"
+                    class="
+                      inline-block
+                      text-base text-[#f3f4fe]
+                      hover:text-primary
+                      leading-loose
+                      mb-2
+                    "
+                  >
+                    Placa aluguel
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-opacity-40 py-8 mt-12 lg:mt-[60px]">
+        <div class="container">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full md:w-2/3 lg:w-1/2 px-4">
+              <div class="my-1">
+                <div
+                  class="
+                    flex
+                    items-center
+                    justify-center
+                    md:justify-start
+                    -mx-3
+                  "
+                >
+                  <p class="text-base text-[#f3f4fe] hover:text-primary px-3"> Contato: </p><br>
+                  <a href="https://api.whatsapp.com/send?phone=5541998412008" class="text-base text-[#f3f4fe] hover:text-primary px-3"> WhatsApp: (41) 99841-2008</a><br>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 lg:w-1/2 px-4">
+              <div class="flex justify-center md:justify-end my-1">
+                <p>
+                  <a
+                    href="https://nacionalplacas.com.br"
+                    rel="nofollow noopner"
+                    target="_blank"
+                    class="
+                    inline-block
+                    text-base text-[#f3f4fe]
+                    hover:text-primary
+                    leading-loose
+                    mb-2
+                  "
+                  >Confira a Qualidade do Nosso Produto
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="absolute left-0 top-0 z-[-1]">
+          <img src="assets/images/footer/shape-1.svg" alt="" />
+        </span>
+
+        <span class="absolute bottom-0 right-0 z-[-1]">
+          <img src="assets/images/footer/shape-3.svg" alt="" />
+        </span>
+
+        <span class="absolute top-0 right-0 z-[-1]">
+          <svg
+            width="102"
+            height="102"
+            viewBox="0 0 102 102"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.8667 33.1956C2.89765 33.1956 3.7334 34.0318 3.7334 35.0633C3.7334 36.0947 2.89765 36.9309 1.8667 36.9309C0.835744 36.9309 4.50645e-08 36.0947 0 35.0633C-4.50645e-08 34.0318 0.835744 33.1956 1.8667 33.1956Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 33.1956C19.3249 33.1956 20.1606 34.0318 20.1606 35.0633C20.1606 36.0947 19.3249 36.9309 18.2939 36.9309C17.263 36.9309 16.4272 36.0947 16.4272 35.0633C16.4272 34.0318 17.263 33.1956 18.2939 33.1956Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 33.195C35.7519 33.195 36.5876 34.0311 36.5876 35.0626C36.5876 36.0941 35.7519 36.9303 34.7209 36.9303C33.69 36.9303 32.8542 36.0941 32.8542 35.0626C32.8542 34.0311 33.69 33.195 34.7209 33.195Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 33.195C51.965 33.195 52.8008 34.0311 52.8008 35.0626C52.8008 36.0941 51.965 36.9303 50.9341 36.9303C49.9031 36.9303 49.0674 36.0941 49.0674 35.0626C49.0674 34.0311 49.9031 33.195 50.9341 33.195Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 16.7605C2.89765 16.7605 3.7334 17.5966 3.7334 18.6281C3.7334 19.6596 2.89765 20.4957 1.8667 20.4957C0.835744 20.4957 4.50645e-08 19.6596 0 18.6281C-4.50645e-08 17.5966 0.835744 16.7605 1.8667 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 16.7605C19.3249 16.7605 20.1606 17.5966 20.1606 18.6281C20.1606 19.6596 19.3249 20.4957 18.2939 20.4957C17.263 20.4957 16.4272 19.6596 16.4272 18.6281C16.4272 17.5966 17.263 16.7605 18.2939 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 16.7605C35.7519 16.7605 36.5876 17.5966 36.5876 18.6281C36.5876 19.6596 35.7519 20.4957 34.7209 20.4957C33.69 20.4957 32.8542 19.6596 32.8542 18.6281C32.8542 17.5966 33.69 16.7605 34.7209 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 16.7605C51.965 16.7605 52.8008 17.5966 52.8008 18.6281C52.8008 19.6596 51.965 20.4957 50.9341 20.4957C49.9031 20.4957 49.0674 19.6596 49.0674 18.6281C49.0674 17.5966 49.9031 16.7605 50.9341 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 0.324951C2.89765 0.324951 3.7334 1.16115 3.7334 2.19261C3.7334 3.22408 2.89765 4.06024 1.8667 4.06024C0.835744 4.06024 4.50645e-08 3.22408 0 2.19261C-4.50645e-08 1.16115 0.835744 0.324951 1.8667 0.324951Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 0.324951C19.3249 0.324951 20.1606 1.16115 20.1606 2.19261C20.1606 3.22408 19.3249 4.06024 18.2939 4.06024C17.263 4.06024 16.4272 3.22408 16.4272 2.19261C16.4272 1.16115 17.263 0.324951 18.2939 0.324951Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 0.325302C35.7519 0.325302 36.5876 1.16147 36.5876 2.19293C36.5876 3.2244 35.7519 4.06056 34.7209 4.06056C33.69 4.06056 32.8542 3.2244 32.8542 2.19293C32.8542 1.16147 33.69 0.325302 34.7209 0.325302Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 0.325302C51.965 0.325302 52.8008 1.16147 52.8008 2.19293C52.8008 3.2244 51.965 4.06056 50.9341 4.06056C49.9031 4.06056 49.0674 3.2244 49.0674 2.19293C49.0674 1.16147 49.9031 0.325302 50.9341 0.325302Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 33.1956C67.9346 33.1956 68.7704 34.0318 68.7704 35.0633C68.7704 36.0947 67.9346 36.9309 66.9037 36.9309C65.8727 36.9309 65.037 36.0947 65.037 35.0633C65.037 34.0318 65.8727 33.1956 66.9037 33.1956Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 33.1956C84.3616 33.1956 85.1974 34.0318 85.1974 35.0633C85.1974 36.0947 84.3616 36.9309 83.3307 36.9309C82.2997 36.9309 81.464 36.0947 81.464 35.0633C81.464 34.0318 82.2997 33.1956 83.3307 33.1956Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 33.1956C100.789 33.1956 101.624 34.0318 101.624 35.0633C101.624 36.0947 100.789 36.9309 99.7576 36.9309C98.7266 36.9309 97.8909 36.0947 97.8909 35.0633C97.8909 34.0318 98.7266 33.1956 99.7576 33.1956Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 16.7605C67.9346 16.7605 68.7704 17.5966 68.7704 18.6281C68.7704 19.6596 67.9346 20.4957 66.9037 20.4957C65.8727 20.4957 65.037 19.6596 65.037 18.6281C65.037 17.5966 65.8727 16.7605 66.9037 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 16.7605C84.3616 16.7605 85.1974 17.5966 85.1974 18.6281C85.1974 19.6596 84.3616 20.4957 83.3307 20.4957C82.2997 20.4957 81.464 19.6596 81.464 18.6281C81.464 17.5966 82.2997 16.7605 83.3307 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 16.7605C100.789 16.7605 101.624 17.5966 101.624 18.6281C101.624 19.6596 100.789 20.4957 99.7576 20.4957C98.7266 20.4957 97.8909 19.6596 97.8909 18.6281C97.8909 17.5966 98.7266 16.7605 99.7576 16.7605Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 0.324966C67.9346 0.324966 68.7704 1.16115 68.7704 2.19261C68.7704 3.22408 67.9346 4.06024 66.9037 4.06024C65.8727 4.06024 65.037 3.22408 65.037 2.19261C65.037 1.16115 65.8727 0.324966 66.9037 0.324966Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 0.324951C84.3616 0.324951 85.1974 1.16115 85.1974 2.19261C85.1974 3.22408 84.3616 4.06024 83.3307 4.06024C82.2997 4.06024 81.464 3.22408 81.464 2.19261C81.464 1.16115 82.2997 0.324951 83.3307 0.324951Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 0.324951C100.789 0.324951 101.624 1.16115 101.624 2.19261C101.624 3.22408 100.789 4.06024 99.7576 4.06024C98.7266 4.06024 97.8909 3.22408 97.8909 2.19261C97.8909 1.16115 98.7266 0.324951 99.7576 0.324951Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 82.2029C2.89765 82.2029 3.7334 83.039 3.7334 84.0705C3.7334 85.102 2.89765 85.9382 1.8667 85.9382C0.835744 85.9382 4.50645e-08 85.102 0 84.0705C-4.50645e-08 83.039 0.835744 82.2029 1.8667 82.2029Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 82.2029C19.3249 82.2029 20.1606 83.039 20.1606 84.0705C20.1606 85.102 19.3249 85.9382 18.2939 85.9382C17.263 85.9382 16.4272 85.102 16.4272 84.0705C16.4272 83.039 17.263 82.2029 18.2939 82.2029Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 82.2026C35.7519 82.2026 36.5876 83.0387 36.5876 84.0702C36.5876 85.1017 35.7519 85.9378 34.7209 85.9378C33.69 85.9378 32.8542 85.1017 32.8542 84.0702C32.8542 83.0387 33.69 82.2026 34.7209 82.2026Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 82.2026C51.965 82.2026 52.8008 83.0387 52.8008 84.0702C52.8008 85.1017 51.965 85.9378 50.9341 85.9378C49.9031 85.9378 49.0674 85.1017 49.0674 84.0702C49.0674 83.0387 49.9031 82.2026 50.9341 82.2026Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 65.7677C2.89765 65.7677 3.7334 66.6039 3.7334 67.6353C3.7334 68.6668 2.89765 69.503 1.8667 69.503C0.835744 69.503 4.50645e-08 68.6668 0 67.6353C-4.50645e-08 66.6039 0.835744 65.7677 1.8667 65.7677Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 65.7677C19.3249 65.7677 20.1606 66.6039 20.1606 67.6353C20.1606 68.6668 19.3249 69.503 18.2939 69.503C17.263 69.503 16.4272 68.6668 16.4272 67.6353C16.4272 66.6039 17.263 65.7677 18.2939 65.7677Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 65.7674C35.7519 65.7674 36.5876 66.6036 36.5876 67.635C36.5876 68.6665 35.7519 69.5027 34.7209 69.5027C33.69 69.5027 32.8542 68.6665 32.8542 67.635C32.8542 66.6036 33.69 65.7674 34.7209 65.7674Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 65.7674C51.965 65.7674 52.8008 66.6036 52.8008 67.635C52.8008 68.6665 51.965 69.5027 50.9341 69.5027C49.9031 69.5027 49.0674 68.6665 49.0674 67.635C49.0674 66.6036 49.9031 65.7674 50.9341 65.7674Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 98.2644C2.89765 98.2644 3.7334 99.1005 3.7334 100.132C3.7334 101.163 2.89765 102 1.8667 102C0.835744 102 4.50645e-08 101.163 0 100.132C-4.50645e-08 99.1005 0.835744 98.2644 1.8667 98.2644Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M1.8667 49.3322C2.89765 49.3322 3.7334 50.1684 3.7334 51.1998C3.7334 52.2313 2.89765 53.0675 1.8667 53.0675C0.835744 53.0675 4.50645e-08 52.2313 0 51.1998C-4.50645e-08 50.1684 0.835744 49.3322 1.8667 49.3322Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 98.2644C19.3249 98.2644 20.1606 99.1005 20.1606 100.132C20.1606 101.163 19.3249 102 18.2939 102C17.263 102 16.4272 101.163 16.4272 100.132C16.4272 99.1005 17.263 98.2644 18.2939 98.2644Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M18.2939 49.3322C19.3249 49.3322 20.1606 50.1684 20.1606 51.1998C20.1606 52.2313 19.3249 53.0675 18.2939 53.0675C17.263 53.0675 16.4272 52.2313 16.4272 51.1998C16.4272 50.1684 17.263 49.3322 18.2939 49.3322Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 98.2647C35.7519 98.2647 36.5876 99.1008 36.5876 100.132C36.5876 101.164 35.7519 102 34.7209 102C33.69 102 32.8542 101.164 32.8542 100.132C32.8542 99.1008 33.69 98.2647 34.7209 98.2647Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 98.2647C51.965 98.2647 52.8008 99.1008 52.8008 100.132C52.8008 101.164 51.965 102 50.9341 102C49.9031 102 49.0674 101.164 49.0674 100.132C49.0674 99.1008 49.9031 98.2647 50.9341 98.2647Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M34.7209 49.3326C35.7519 49.3326 36.5876 50.1687 36.5876 51.2002C36.5876 52.2317 35.7519 53.0678 34.7209 53.0678C33.69 53.0678 32.8542 52.2317 32.8542 51.2002C32.8542 50.1687 33.69 49.3326 34.7209 49.3326Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M50.9341 49.3326C51.965 49.3326 52.8008 50.1687 52.8008 51.2002C52.8008 52.2317 51.965 53.0678 50.9341 53.0678C49.9031 53.0678 49.0674 52.2317 49.0674 51.2002C49.0674 50.1687 49.9031 49.3326 50.9341 49.3326Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 82.2029C67.9346 82.2029 68.7704 83.0391 68.7704 84.0705C68.7704 85.102 67.9346 85.9382 66.9037 85.9382C65.8727 85.9382 65.037 85.102 65.037 84.0705C65.037 83.0391 65.8727 82.2029 66.9037 82.2029Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 82.2029C84.3616 82.2029 85.1974 83.0391 85.1974 84.0705C85.1974 85.102 84.3616 85.9382 83.3307 85.9382C82.2997 85.9382 81.464 85.102 81.464 84.0705C81.464 83.0391 82.2997 82.2029 83.3307 82.2029Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 82.2029C100.789 82.2029 101.624 83.039 101.624 84.0705C101.624 85.102 100.789 85.9382 99.7576 85.9382C98.7266 85.9382 97.8909 85.102 97.8909 84.0705C97.8909 83.039 98.7266 82.2029 99.7576 82.2029Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 65.7674C67.9346 65.7674 68.7704 66.6036 68.7704 67.635C68.7704 68.6665 67.9346 69.5027 66.9037 69.5027C65.8727 69.5027 65.037 68.6665 65.037 67.635C65.037 66.6036 65.8727 65.7674 66.9037 65.7674Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 65.7677C84.3616 65.7677 85.1974 66.6039 85.1974 67.6353C85.1974 68.6668 84.3616 69.503 83.3307 69.503C82.2997 69.503 81.464 68.6668 81.464 67.6353C81.464 66.6039 82.2997 65.7677 83.3307 65.7677Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 65.7677C100.789 65.7677 101.624 66.6039 101.624 67.6353C101.624 68.6668 100.789 69.503 99.7576 69.503C98.7266 69.503 97.8909 68.6668 97.8909 67.6353C97.8909 66.6039 98.7266 65.7677 99.7576 65.7677Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 98.2644C67.9346 98.2644 68.7704 99.1005 68.7704 100.132C68.7704 101.163 67.9346 102 66.9037 102C65.8727 102 65.037 101.163 65.037 100.132C65.037 99.1005 65.8727 98.2644 66.9037 98.2644Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M66.9037 49.3322C67.9346 49.3322 68.7704 50.1684 68.7704 51.1998C68.7704 52.2313 67.9346 53.0675 66.9037 53.0675C65.8727 53.0675 65.037 52.2313 65.037 51.1998C65.037 50.1684 65.8727 49.3322 66.9037 49.3322Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 98.2644C84.3616 98.2644 85.1974 99.1005 85.1974 100.132C85.1974 101.163 84.3616 102 83.3307 102C82.2997 102 81.464 101.163 81.464 100.132C81.464 99.1005 82.2997 98.2644 83.3307 98.2644Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M83.3307 49.3322C84.3616 49.3322 85.1974 50.1684 85.1974 51.1998C85.1974 52.2313 84.3616 53.0675 83.3307 53.0675C82.2997 53.0675 81.464 52.2313 81.464 51.1998C81.464 50.1684 82.2997 49.3322 83.3307 49.3322Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 98.2644C100.789 98.2644 101.624 99.1005 101.624 100.132C101.624 101.163 100.789 102 99.7576 102C98.7266 102 97.8909 101.163 97.8909 100.132C97.8909 99.1005 98.7266 98.2644 99.7576 98.2644Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+            <path
+              d="M99.7576 49.3322C100.789 49.3322 101.624 50.1684 101.624 51.1998C101.624 52.2313 100.789 53.0675 99.7576 53.0675C98.7266 53.0675 97.8909 52.2313 97.8909 51.1998C97.8909 50.1684 98.7266 49.3322 99.7576 49.3322Z"
+              fill="white"
+              fill-opacity="0.08"
+            ></path>
+          </svg>
+        </span>
+      </div>
+    </footer>
+    <!-- ====== Footer Section End -->
+
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="
+        hidden
+        items-center
+        justify-center
+        bg-primary
+        text-white
+        w-10
+        h-10
+        rounded-md
+        fixed
+        bottom-8
+        right-8
+        left-auto
+        z-[999]
+        hover:bg-dark
+        back-to-top
+        shadow-md
+        transition
+        duration-300
+        ease-in-out
+      "
+    >
+      <span
+        class="w-3 h-3 border-t border-l border-white rotate-45 mt-[6px]"
+      ></span>
+    </a>
+    <!-- ====== Back To Top End -->
+
+    <!-- ====== All Scripts -->
+
+    <script src="assets/js/main.js"></script>
+    <script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".ud-menu-scroll");
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".ud-menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document
+              .querySelector(".ud-menu-scroll")
+              .classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
+        }
+      }
+
+      window.document.addEventListener("scroll", onScroll);
+    </script>
+  </body>
+</html>
